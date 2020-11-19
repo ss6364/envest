@@ -1,2 +1,0 @@
-# miku
-just for fun
