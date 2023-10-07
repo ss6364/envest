@@ -1,304 +1,490 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Wealth management and Investment Consulting</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <link rel="stylesheet" href="./main.css" type="text/css" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <title>Financial Advisory - mutual funds, insurance and banking services consultation</title>
-  <link rel="shortcut icon" href="./img/title_icon.jpeg" type="image/png" />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
 
-  <!---------fixed Navigation bar start ------------>
-  <nav class="navbar">
-    <div id="trapezoid">
-      <a class="sub-home" href="./index.html">Home</a>
-      <a href="./services.html" class="expandHome">Services</a>
+      <!-- <h1 class="logo me-auto"><a href="index.html">envest.in</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
-      <a href="./clients.html" class="expandHome">Clients</a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
 
-      <a href="#contact_us" class="expandHome">Contact Us</a>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="index.html">About</a></li>
+              <li><a href="index.html">Team</a></li>
+              <li><a href="index.html">Testimonials</a></li>
 
-      <a href="./About.html" class="expandHome">About</a>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="index.html">Pricing</a></li>
+          <li><a href="index.html">Blog</a></li>
+
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="index.html" class="getstarted">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-  </nav>
-  <!---------fixed Navigation bar end ------------>
+  </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-  <!-- main screen background animation starts header section -->
-  <header class="v-header container">
-    <div class="fullscreen-video-wrap">
-      <video src="./vid/forest_top.mp4" autoplay="true" loop="true"></video>
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>envest.in</span></h2>
+              <p class="animate__animated animate__fadeInUp">Your Path to Financial Prosperity Begins Here.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Unlock Your Financial Potential with Envest</span></h2>
+              <p class="animate__animated animate__fadeInUp">Discover the key to unlocking your financial potential with Envest. We provide expert financial guidance and tailored solutions to help you achieve your financial goals and secure a prosperous future.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Plan your future by planning your finances</h2>
+              <p class="animate__animated animate__fadeInUp">Secure your future by taking control of your finances. Our financial planning services empower you to make informed decisions, set achievable goals, and build a prosperous tomorrow. Let us guide you on the path to financial stability and success.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Confused of making decisions in investments?</h2>
+            <h3>We are here for everything you need to solve all your financial doubts.</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              
+              At <b><i>Envest.in</i></b>, our financial operations are led by <span> Shri P.B. Shukla</span>, with over 25 years of financial expertise. 
+              He adheres to three fundamental principles of financial planning:
+
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Goal Clarity: We start by helping you define clear financial goals, whether it's buying a home, saving for education, or planning for retirement.</li>
+              <li><i class="ri-check-double-line"></i> Customized Strategies: We tailor financial strategies to your unique circumstances, ensuring your plan aligns with your goals, risk tolerance, and timeline.</li>
+              <li><i class="ri-check-double-line"></i> Long-Term Vision: With a focus on the long-term, we help you build and preserve wealth, providing confidence and security for your financial future.</li>
+            </ul>
+            <p class="fst-italic">
+              To explore our financial services, please call +91 9415644019 or email us at info@envest.in. We're here to help you achieve your financial goals.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/lic-logo.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="#">Financial Consultation and Advisory</a></h4>
+              <p>Get expert help and personalized advice to make informed financial decisions aligned with your goals and unique circumstances.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h4><a href="#">Insurance Solutions (Life, Health, and More)</a></h4>
+              <p>Safeguard your loved ones and secure your financial future with our comprehensive insurance options, including life and health coverage.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h4><a href="#">Debt Management</a></h4>
+              <p>Regain control of your finances by crafting a structured plan to effectively reduce and manage your debts, setting you on a path to greater financial freedom.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h4><a href="#">Tax Planning Strategies</a></h4>
+              <p>Discover smart ways to legally pay fewer taxes, allowing you to keep more of your hard-earned money.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-brightness-high"></i>
+              <h4><a href="#">Portfolio Management (Mutual Funds, Stocks & SIPs)</a></h4>
+              <p>Grow your wealth and achieve your financial objectives by entrusting us to expertly manage your investment portfolio, including mutual funds, stocks, and systematic investment plans (SIPs).</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">Retirement Planning</a></h4>
+              <p>Secure a comfortable retirement with a tailored savings strategy that factors in your income needs and ensures financial peace of mind during your golden years.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= --
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+  
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Envest.in</h3>
+              <p>
+                7A, Jondhawal, Teliyarganj <br>
+                Prayagraj, UP, India<br><br>
+                <strong>Phone:</strong> +91 9415 644 019<br>
+                <strong>Email:</strong> <mail>info@envest.in</mail><br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Financial Consultation and Advisory</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Insurance Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Portfolio Management </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tax Planning Strategies</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Debt Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Retirement Management</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Monthly Newsletter to get updates about us and knowledge about financial world</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="header-overlay"></div>
-    <div class="header-content text-md-center">
-      <h1>Welcome to the getXtra</h1>
-      <p>Confused of making decisions in investments?<br>
-        We are here for everything you need to solve all your financial doubts.</p>
-      <a class="btn" href="#section-2">Find Out More</a>
-    </div>
-  </header>
-  <!-- Main screen background animation end -->
-
-
-  <!-- quotes section start-->
-  <div class="container">
-    <blockquote class="ludwig">
-      “Finance is not merely about making money. It’s about achieving our deep goals and protecting the fruits of our labor. It’s about stewardship and, therefore, about achieving the good society.”<br> – Robert J. Shiller
-    </blockquote>
-    
-  </div>
-<!-- quotes section ends here-->
-
-
-  <!-- section b starts here introductory section -->
-<div class="section-2">
-  <section class="section section-b" id="section-2">
     <div class="container">
-      <h2 style="color: rgb(255, 254, 254); font-weight: bold;">Why financial planning is important?</h2>
-      <p style="color:rgb(253, 251, 251); font-weight: bold;">
-        Money is the key to fulfill every materialistic needs of human being,
-        You work hard to earn then why to became careless for handling the hard earned money?
-        <br>
-        Still not sure, what we do.
-
-        Let me walk through a question, why you go to doctor when you get sick?
-        ....because he has expertise in medicine. right.
-        Then what about your money, why not ask the expert?
-        people often don't know what they are losing till they experience what they can get, Reach out to us to
-        experience the change.
-      </p>
-    </div>
-  </section>
-  </div>
-  <!-- section b  ends here introductory section -->
-
-
-
-
-  <!-- heading for services -->
-  <div class="heading-2">
-    <h2> What we do </h2>
-  </div>
-<!-- end -->
-
-  <!-- 3 Services corousel Section starts here -->
-
-  <div class="w3-display-container w3-center" id="section-services">
-
-    <div class="mySlides w3-animate-opacity">
-      <img class="w3-image" src="https://wallpaperaccess.com/full/30100.jpg" alt="Image 1 1920 X 1200"
-        style="min-width:500px" width="1200px" height="800px">
-      <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-          <h1 class="w3-xlarge w3-text-indigo">Explore our services</h1>
-          <hr class="w3-opacity">
-          <p>
-            We provide many finacial services and work to give our clients more than our commitments
-            We believe in trust, the more we know about you the better we can help you with our expertise.
-            Like your personal health needs doctor, your financial health also needs expert sometimes.
-          </p>
-          <p><button class="w3-button w3-block w3-indigo w3-round"
-              onclick="document.getElementById('contact_us').style.display='block'">Contact us</button></p>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>envest.in</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
+        Designed by <a href="">shiv s</a>
       </div>
     </div>
+  </footer><!-- End Footer -->
 
-    <div class="mySlides w3-animate-opacity">
-      <img class="w3-image" src="https://wallpaperaccess.com/full/138783.jpg" alt="Image 2" style="min-width:500px"
-        width=100% height=100vh>
-      <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-          <h1 class="w3-xlarge w3-text-red"><b>Mutual Funds / Portfolio Management /Share Market Investments
-          </h1>
-          <hr class="w3-opacity">
-          <p>
-            We serve you as SEBI certified advisor with more than 20years of experience in financial
-            advising and insurance management
-            We work relentlessly to give the best returns to our customers by managing theier financial
-            portfolio
-            and timely taking market oriented investment decisions.
-          </p>
-          <p><button class="w3-button w3-block w3-red w3-round"
-              onclick="document.getElementById('download').style.display='block'">Contact us </button></p>
-        </div>
-      </div>
-    </div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <div class="mySlides w3-animate-opacity">
-      <img class="w3-image" src="https://i.pinimg.com/originals/3e/c6/19/3ec619d9f96fc07327173610e2246f94.jpg"
-        alt="Image 3" style="min-width:1200px" width="800" height="600">
-      <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large w3-white">
-          <h1 class="w3-xlarge w3-text-green">Insurance Services</h1>
-          <hr class="w3-opacity">
-          <p>
-            Seemless experience with our insurance service, we are partnered with many insurance comapanies
-            like LIC, OIC etc, to get you you and your assets covered.
-            Our insurance services comes with very nominal charges as serivce fee and we commit you to
-            provide best support services we will be there from the start to getting the claims..
-          </p>
-          <p><button class="w3-button w3-block w3-green w3-round"
-              onclick="document.getElementById('contact_us').style.display='block'">Contact </button></p>
-        </div>
-      </div>
-    </div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <div class="mySlides w3-animate-opacity">
-      <img class="w3-image" src="https://wallpaperaccess.com/full/271965.jpg" alt="Image 4" style="min-width:500px"
-        width="1200" height="800">
-      <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-        <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-          <h1 class="w3-xlarge w3-text-blue">personalised financial planning</h1>
-          <hr class="w3-opacity">
-          <p>We understand not everyone have same financial structure, so why not have personalised financial planning
-            which suits best for your financial health. <b>The more we know the more we help you grow</b></b>. </p>
-          <p><button class="w3-button w3-block w3-blue w3-round"
-              onclick="document.getElementById('contact_us').style.display='block'"> Contact_us </button></p>
-        </div>
-      </div>
-    </div>
-    <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey btn"
-      onclick="plusDivs(1)" style="font: 1.4em sans-serif;">Take Tour <i class="fa fa-angle-right"></i></a>
-    <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i
-        class="fa fa-angle-right"></i></a>
-  </div>
-  <!-- 3 Services corousel Section ends here -->
-  
-  <br>
-
-
-
-  <!-- section data counter box starts here -->
-  <div class="section-counter">
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <p><i class="fa fa-user"></i></p>
-          <h3>11+</h3>
-          <p>Partners</p>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <p><i class="fa fa-check"></i></p>
-          <h3>15+</h3>
-          <p>Services offered</p>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <p><i class="fa fa-smile-o"></i></p>
-          <h3>100+</h3>
-          <p>Happy Clients</p>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <p><i class="fa fa-coffee"></i></p>
-          <h3>100+</h3>
-          <p>Meetings</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- section data counter box ends here -->
-
-
-
-  <div class="section-3">
-    <h2>Know your Advisor</h2>
-    <p>
-      Mr P B Shukla, with more than 20 years of experience in financial operations and services delivery, 
-      will be leading your whole financial operations. He is SEBI certified financial advisor,  With excellent
-       track record of serving 200+ happy clients, he is one of the leading mutual funds advisor in city. 
-       Under his supervision many customers have gained more than 50% returns on their investments.
-      The returns are totally market dependent so there are risk involved, but under the right supervision 
-      anyone can make it upto the mark. Good returns are not the only parameter for good financial planning,
-      but the right returns on right time is. So contact us now to assess your financial health and plan accordingly. 
-    </p>
-    <a class="btn" href="#contact_us">Contact us now </a>
-  </div>
-
-
-
-  <!-- data and blogs related to work-->
-  <div class="feed" id="location-map">
-
-  </div>
-  <!--end of feed-->
-
-  <br>
-  <br>
-
-
-  <!--MAPS integration [part] starts-->
-  <div class="section-maps" id="location-map">
-    <iframe class="responsive-iframe"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.2929880917643!2d81.85969042919895!3d25.499311198984802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aca712eba66d1%3A0xc8f7379bfaa5e780!2sFinancial%20Advisory!5e0!3m2!1sen!2sin!4v1615381086069!5m2!1sen!2sin"
-      width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-  <!--maps integration part ends-->
-  
-  <div id="contact_us" align="center">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSepMQpPTkB6K97tzT-ohxNmRRtmtGwXRuG0pJ0-QJd9zC0S0g/viewform?embedded=true" width="640" height="1160" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
-  
-  <!-- section 2 start here introductory section -->
-  <div class="contact_us container">
-
-    <p><i class="fa fa-address-card"></i> 7A/1A Teliyarganj, Prayagraj, UP </p>
-    <p><i class="fa fa-phone"></i> +91-9415644019 </p>
-
-  </div>
-  <!-- section 2 ends here introductory section -->
-
-
-
-  <!-- FOOTER STARTS --------------------->
-  <div class="footer-basic">
-    <footer>
-      <div class="social"><a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="mailto:keepdoing999@gmail.com"><i class="fa fa-send"></i></a>
-        <a href="#" alt="drop an email now"><i class="fa fa-street-view"></i></a>
-      </div>
-
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Home</a></li>
-        <li class="list-inline-item"><a href="./about.html">About</a></li>
-        <li class="list-inline-item"><a href="./contact_us.html">Work with us</a></li>
-        <li class="list-inline-item"><a href="./contact_us.html">path to become LIC agent</a></li>
-        <li class="list-inline-item"><a href="#section-2">Law Abiding Citizen</a></li>
-      </ul>
-      <p class="copyright"><a href="http://getxtra.in">GetXtra.in</a> © 2021 All Rights Reserved</p>
-    </footer>
-  </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-  <!-- footer ends here -->
-  <script type="text/javascript" src="./main.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
-
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
